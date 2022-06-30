@@ -8,31 +8,49 @@ As a data analysis intern, you have to analyze sports data for a client. You are
 **IPL_Ball:**
 The first CSV file is for ball-by-ball data and it has information of all the 193468 balls bowled between the years 2008 and 2020. It has 17 columns and below is the details of those 17 columns:
 
-|Column title|Description|
-|:----------:|:-----------|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|player_dismissed||
-|fielder||
-|extras_type||
-|batting_team||
-|bowling_team||
+|Column title    |Description                         |
+|:---------------|:-----------------------------------|
+|id              |Unique Match ID as per ESPNcricinfo |
+|inning          |Inning number                       |
+|over            |Over Number in an inning            |
+|ball            |Ball Number in an over              |
+|batsman         |Batsman on strike                   |
+|non_striker     |Batsman at non-striker end          |
+|bowler          |Bowler                              |
+|batsman_runs    |Runs off Bat                        |
+|extra_runs      |Extra runs                          |
+|total_runs      |Total runs scored                   |
+|is_wicket       |Is the delivery a wicket?           |
+|dismissal_kind  |Type of dismissal                   |  
+|player_dismissed|Player who got dismissed            |
+|fielder         |Fielder involved in the dismissal   |
+|extras_type     |Type of extras                      |
+|batting_team    |Team to whih batsman belongs        |
+|bowling_team    |Tem to which bowler belongs         |
 
 **IPL_Matches:**
 The second file contains match-wise data and has data of 816 IPL matches. This table has 17 columns and below is a short description of the columns in this table:
 
+|Column title    |Description                                 |
+|:---------------|:-------------------------------------------|
+|id              |Unique Match ID as per ESPNcricinfo         |
+|city            |City in which stadium is located            |
+|date            |Date on which match is held                 |
+|player_of_match |Player awarded with best performance        |
+|venue           |Stadium name                                |
+|neutral_venue   |Is the venue neutral(not a homeground)      |
+|team1           |Team 1                                      |
+|team2           |Team 2                                      |
+|toss_winner     |Decision of the toss winner                 |
+|winner          |Match winning team                          |
+|result          |Result base on victory by runs or by wickets|
+|reault_margin   |Margin of wickets or runs                   |
+|eliminator      |Was a superover bowled or not               |
+|method          |was a DL(Duckworth Lewis) method applied    |
+|umpire1         |First umpire                                |
+|umpire2         |Second umpire                               |
 
-## ✅ Tasks:
+## ✅ Tasks to do:
 ***Write queries in SQL for the following tasks:***
 
 |Task|✳️|Description|
