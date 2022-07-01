@@ -25,6 +25,6 @@ As a data analysis intern, you are provided with the Profit and Loss statement o
 - Column chart for historical revenue. 
 - Pie chart for expense breakup
 - Main expenditure item Target vs achieved
-- Create chats of other metrics you feel are important.
+- Create charts of other metrics you feel are important.
 
 Dataset: [Financial Dashboard.xlsx](https://docs.google.com/spreadsheets/d/1PHoXC4VvkghGKLZtvCknkYfUt85232Lj/edit#gid=1878825323)
