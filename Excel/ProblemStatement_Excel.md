@@ -3,7 +3,7 @@
 
 There are two parts to the task. You need to complete both using Microsoft Excel.
 
-## Part 1
+## Part-1:
 
 As a data analysis intern, you are provided with a general store transaction dataset. You are supposed to do the following operations.
 
@@ -15,7 +15,7 @@ As a data analysis intern, you are provided with a general store transaction dat
 
 Dataset: [General_store_dataset.xlsx](https://docs.google.com/spreadsheets/d/1tCGKSbCRXgh8ElkvC_7iNJeMw53atXiP/edit#gid=1010192537)
 
-## Part 2
+## Part-2:
 
 Create the financial dashboard:
 
